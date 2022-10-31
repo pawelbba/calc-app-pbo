@@ -54,8 +54,8 @@ function reducer(state, { type, payload }) {
 }
 
 function evaluate({ currentOperand, previousOperand, operation}) {
-  
-}
+
+} 
 
 function App() {
   const [{ currentOperand, previousOperand, operation }, dispatch] = useReducer(
